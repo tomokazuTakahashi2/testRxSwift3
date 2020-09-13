@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Apple製品リスト-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testRxSwift3" customModuleProvider="target" sceneMemberID="viewController">
@@ -29,7 +29,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2BH-Vx-c4F"/>
+                    <navigationItem key="navigationItem" title="Apple製品リスト" id="2BH-Vx-c4F"/>
                     <connections>
                         <outlet property="tableView" destination="dnI-Sf-ylg" id="G0F-A8-o0y"/>
                     </connections>
@@ -37,6 +37,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="137.94642857142856"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="SfV-5Q-fJ8">
+            <objects>
+                <viewController storyboardIdentifier="vc2" id="SYf-ep-esB" customClass="ViewController2" customModule="testRxSwift3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I7p-QO-lTl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6Q-Wu-vcZ">
+                                <rect key="frame" x="50" y="74" width="66.5" height="33.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slT-6s-Vve">
+                                <rect key="frame" x="331.5" y="134" width="52.5" height="26.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r9D-sY-Uyz">
+                                <rect key="frame" x="57" y="180.5" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8iL-EJ-csu"/>
+                                    <constraint firstAttribute="width" secondItem="r9D-sY-Uyz" secondAttribute="height" multiplier="1:1" id="P9N-4d-rhy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="w6Q-Wu-vcZ" firstAttribute="leading" secondItem="dDd-Qc-ylN" secondAttribute="leading" constant="50" id="Qsv-hO-bh5"/>
+                            <constraint firstItem="r9D-sY-Uyz" firstAttribute="centerX" secondItem="I7p-QO-lTl" secondAttribute="centerX" id="SDN-zn-Wvs"/>
+                            <constraint firstItem="r9D-sY-Uyz" firstAttribute="top" secondItem="slT-6s-Vve" secondAttribute="bottom" constant="20" id="gAg-wR-xu1"/>
+                            <constraint firstItem="w6Q-Wu-vcZ" firstAttribute="top" secondItem="dDd-Qc-ylN" secondAttribute="top" constant="30" id="i8I-yl-UGV"/>
+                            <constraint firstItem="dDd-Qc-ylN" firstAttribute="trailing" secondItem="slT-6s-Vve" secondAttribute="trailing" constant="30" id="wgG-kX-hDh"/>
+                            <constraint firstItem="slT-6s-Vve" firstAttribute="top" secondItem="dDd-Qc-ylN" secondAttribute="top" constant="90" id="y8J-yN-5pc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dDd-Qc-ylN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fpj-FW-Eku"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="w6Q-Wu-vcZ" id="XaL-bE-Oul"/>
+                        <outlet property="priceLabel" destination="slT-6s-Vve" id="vG8-DF-S9Y"/>
+                        <outlet property="productIamgeView" destination="r9D-sY-Uyz" id="hRS-iI-pa0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEK-E3-N5I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1811.594202898551" y="137.94642857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MW6-AW-YdP">

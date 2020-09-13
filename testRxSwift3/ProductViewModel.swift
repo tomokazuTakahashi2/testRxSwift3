@@ -28,5 +28,6 @@ class ProductViewModel {
         items.onNext(productArray)
         items.onCompleted()
     }
+
     
 }

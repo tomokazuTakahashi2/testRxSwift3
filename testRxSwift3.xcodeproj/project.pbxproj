@@ -18,6 +18,7 @@
 		64B0ECBC250D4E400079E1C4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0ECBB250D4E400079E1C4 /* Product.swift */; };
 		64B0ECBF250D4F070079E1C4 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0ECBD250D4F070079E1C4 /* ProductTableViewCell.swift */; };
 		64B0ECC0250D4F070079E1C4 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B0ECBE250D4F070079E1C4 /* ProductTableViewCell.xib */; };
+		64B0ECC2250DF7BE0079E1C4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B0ECC1250DF7BE0079E1C4 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		64B0ECBB250D4E400079E1C4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		64B0ECBD250D4F070079E1C4 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		64B0ECBE250D4F070079E1C4 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		64B0ECC1250DF7BE0079E1C4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		7634674DA4F19D8702DC4118 /* Pods-testRxSwift3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testRxSwift3.release.xcconfig"; path = "Target Support Files/Pods-testRxSwift3/Pods-testRxSwift3.release.xcconfig"; sourceTree = "<group>"; };
 		91C06EE1D24BA25173F60D9C /* Pods-testRxSwift3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testRxSwift3.debug.xcconfig"; path = "Target Support Files/Pods-testRxSwift3/Pods-testRxSwift3.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 				64B0ECA5250D2BA10079E1C4 /* AppDelegate.swift */,
 				64B0ECA7250D2BA10079E1C4 /* SceneDelegate.swift */,
 				64B0ECA9250D2BA10079E1C4 /* ViewController.swift */,
+				64B0ECC1250DF7BE0079E1C4 /* ViewController2.swift */,
 				64B0ECB9250D4E0A0079E1C4 /* ProductViewModel.swift */,
 				64B0ECBD250D4F070079E1C4 /* ProductTableViewCell.swift */,
 				64B0ECBE250D4F070079E1C4 /* ProductTableViewCell.xib */,
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B0ECC2250DF7BE0079E1C4 /* ViewController2.swift in Sources */,
 				64B0ECAA250D2BA10079E1C4 /* ViewController.swift in Sources */,
 				64B0ECA6250D2BA10079E1C4 /* AppDelegate.swift in Sources */,
 				64B0ECBC250D4E400079E1C4 /* Product.swift in Sources */,
